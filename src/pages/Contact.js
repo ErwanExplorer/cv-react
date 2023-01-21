@@ -1,15 +1,11 @@
 import React from 'react';
-import Footer from '../components/Footer';
-import Logo from '../components/Logo';
 import Navigation from '../components/Navigation';
 
 const Contact = () => {
     return (
         <div>
-            <Logo/>
-            <Navigation/>
+            <Navigation />
             <p>contact</p>
-            <Footer/>
         </div>
     );
 };
